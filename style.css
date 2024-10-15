@@ -61,6 +61,8 @@ body{
 .top{
     margin: 0;
     padding: 16px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .header{
@@ -87,8 +89,6 @@ ul{
     gap: 16px;
 }
 
-
-
 .hero-items{
     display: flex;
     flex-direction: column;
@@ -106,11 +106,26 @@ ul{
     height: 500px;
 }
 
+.sign-btn{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.btn-top{
+    border: none;
+}
+
 .info{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .cards{
@@ -130,6 +145,61 @@ ul{
 .card-img{
     width: 200px;
     height: 200px;
+    border-radius: 10px;
+    border: 5px solid #3882F6;
+}
+
+.quote{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+}
+
+.quote-source{
+    font-size: 30px;
+    font-weight: 900;
+    flex-shrink: 0;
+}
+
+.sign-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 20px;    
+    padding: 16px;
+    padding-left: 125px;
+    padding-right: 125px;
+    gap: 24px;
+}
+
+.sign-title{
+    color: white;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.sign-text{
+    color: white;
+    font-size: 20px;
+}
+
+.down-btn{
+    border: 2px solid white;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    align-items: center;
+    margin: 0;
 }
 
 
